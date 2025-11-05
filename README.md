@@ -1,21 +1,19 @@
 # strapi-duplicate-locale
 
+Plugin create for copy to different locale when current Strapi v5 have lack of support.
 
 
 __Install__
 
-1. clone source
-2. install package
-3. build source
-
-
-
-__Enabled Plugin__
-
-- Add those config in /<your-source>/config/plugin.{ts,js}
+```npm
+npm install strapi-copy-locale
 ```
-"strapi-locale": {
-enabled: true,
-resolve: <plugin-path>, // Example: "./src/plugins/strapi-locale"
-},
+
+```yarn
+yarn add strapi-copy-locale
 ```
+
+
+# Feedback
+
+Feel free to feedback
